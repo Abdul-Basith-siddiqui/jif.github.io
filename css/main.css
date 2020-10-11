@@ -1,0 +1,86 @@
+body {
+
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background: black;
+	background-image: url('https://www.ps4wallpapers.com/wp-content/uploads/2020/09/2020-09-19_5f6665bbe1445_anime-shouto-wallpaper-1920x1080-19567_48-1056x594.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+.container-padding50 {
+	border-radius: 10rem;
+	padding-top: 30px;
+	background-color: rgb(126, 209, 209,.5);
+}
+
+.container-textinput {
+	width: 80%;
+	display: inline-block;
+	padding: 20px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	border-radius: 20px;
+}
+
+.container-button {
+	width: 10%;
+	display: inline-block;
+	padding: 20px;
+	background-color: green;
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	margin: 0px;
+
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+.container-image {
+	width: 30%;
+	display: block;
+	float: left;
+	margin-right:3%;
+	background-color: black;
+}
+
+@media only screen and (max-width:600px) {
+	body {
+
+		background: url('https://i.pinimg.com/564x/79/0d/0c/790d0cbb4471342449344222d5bd3c8f.jpg') no-repeat center center fixed;
+		
+		
+
+	}
+	.container-textinput {
+		width: 70%;
+		height:10px;
+		display: inline-block;
+		padding: 20px;
+		font-size: 16px;
+		font-family: Helvetica, sans-serif;
+		border-radius: 20px;
+	}
+	
+	.container-button {
+		width: 20%;
+		height:20%;
+		display: inline-block;
+		padding: 10px;
+		background-color: green;
+		color: white;
+		font-size: 16px;
+		font-family: Helvetica, sans-serif;
+		margin: 0px;
+	
+		border: 1px solid green;
+		border-radius: 5px;
+	}
+  }
+  
